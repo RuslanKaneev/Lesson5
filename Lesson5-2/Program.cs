@@ -4,3 +4,5 @@ using System.IO;
 string currentTime = Convert.ToString(DateTime.Now.ToString("HH:mm:ss"));
 string filename = "startup.txt";
 File.WriteAllText(filename, currentTime);
+
+
